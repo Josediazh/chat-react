@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { AuthPage } from "../auth/pages/AuthPage"
+import { ChatAppPage } from "../chatapp/pages/ChatAppPage"
 
 
 export const AppRouter = () => {
@@ -10,7 +11,7 @@ export const AppRouter = () => {
         },
         {
             path: "/chats",
-            element: <h1>Chats</h1>,
+            element: <ChatAppPage />,
         }
     ])
 

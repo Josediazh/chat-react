@@ -7,8 +7,6 @@ import { LoginForm } from "../components/LoginForm";
 import { RegisterForm } from "../components/RegisterForm";
 import styled from "styled-components";
 
-import "../../css/style_main.css"
-
 const AuthPageContainer = styled.div`
     display: flex;
     min-height: 100vh;

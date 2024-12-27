@@ -1,11 +1,14 @@
 import styled from "styled-components"
-import { Contacts } from "../components/Contacts"
+import { Contacts } from "../seccions/Contacts"
+import { ChatBox } from "../seccions/ChatBox"
 
 const ChatContainer = styled.div`
     display: flex;
     background-color: white;
     flex-direction: row;
-    padding: 30px;
+    margin: 20px;
+    padding: 10px;
+    height: 90%;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px slategrey;
 `
@@ -24,7 +27,7 @@ export const ChatAppLayout = () => {
             <ListContacts>
                 <Contacts />
             </ListContacts>
-            <MessageBox><h1>Kevin Sturgis</h1></MessageBox>
+            <MessageBox><ChatBox /></MessageBox>
         </ChatContainer>
     )
 }

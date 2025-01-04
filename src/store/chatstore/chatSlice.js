@@ -8,19 +8,19 @@ const initialState = {
     msgs: [{
         idchat: 343242423,
         msgsList: [{
-            message: 'Hola que pex',
+            message: 'Hola',
             idOwn: 1234
         },
         {
-            message: 'que pedo?',
+            message: 'que paso?',
             idOwn: 5678
         },
         {
-            message: 'Vamos a tomar 2',
+            message: 'Vamos por el almuerzo',
             idOwn: 1234
         },
         {
-            message: 'De una vez cuando?',
+            message: 'Dame 10 minutos',
             idOwn: 5678
         },
         ]
@@ -49,19 +49,19 @@ const initialState = {
     activeChat: {
         idchat: 343242423,
         msgsList: [{
-            message: 'Hola que pex',
+            message: 'Hola',
             idOwn: 1234
         },
         {
-            message: 'que pedo?',
+            message: 'que paso?',
             idOwn: 5678
         },
         {
-            message: 'Vamos a tomar 2',
+            message: 'Vamos por el almuerzo',
             idOwn: 1234
         },
         {
-            message: 'De una vez cuando?',
+            message: 'Dame 10 minutos',
             idOwn: 5678
         },
         ]
